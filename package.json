@@ -4,6 +4,7 @@
   "description": "js drumkit",
   "main": "index.js",
   "dependencies": {
+    "cypress": "^3.0.1",
     "jasmine": "^3.1.0"
   },
   "devDependencies": {},
