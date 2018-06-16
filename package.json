@@ -1,0 +1,23 @@
+{
+  "name": "js-drumkit",
+  "version": "1.0.0",
+  "description": "js drumkit",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mozl/js-drumkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mozl/js-drumkit/issues"
+  },
+  "homepage": "https://github.com/Mozl/js-drumkit#readme"
+}
