@@ -6,4 +6,9 @@ describe('My First Test', function() {
   it('visits the drumkit page', function() {
     cy.visit('http://127.0.0.1:5500/index.html');
   });
+
+  it('finds Tom element', function() {
+    cy.visit('http://127.0.0.1:5500/index.html');
+    cy.contains('boom');
+  });
 });
