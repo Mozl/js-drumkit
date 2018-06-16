@@ -16,4 +16,10 @@ describe('My First Test', function() {
     cy.visit('http://127.0.0.1:5500/index.html');
     cy.get('#g').type('g');
   });
+
+  it('checks error for non drum key', function() {
+    cy.visit('http://127.0.0.1:5500/index.html');
+    cy.get('#t').type("t");
+    cy.get('.error').should('be.empty');
+  });
 });
