@@ -1,5 +1,9 @@
 # js-drumkit
-playable drumkit using the keyboard
+Playable drumkit using the keyboard.
+
+## Screenshot
+
+![js drumkit](images/js-drumkit.png)
 
 ## Usage
 
